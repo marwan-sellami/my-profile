@@ -1,0 +1,209 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'lato', sans-serif; 
+	margin: 0;
+}
+
+p.def{
+	padding 0px,20px,
+	line-height: 2.5;
+}
+
+.header ul {
+	margin: 0px;
+	padding : 25px 350px 25px 30px;
+	list-style: none;
+	display :flex;
+	justify-content: space-around;
+	font-size:20px;
+	background-color: rgb(0,30,56);
+	color: white;
+}
+.header li:hover{
+	font-weight: bold;
+}
+.card:hover{
+	background-color: rgb(245,245,255);
+}
+.card1:hover{
+	background-color: rgb(245,245,255);
+}
+.imgxplus {
+	padding-bottom: 35px;
+	padding-top: 40px;
+}
+.imgnumero {
+	padding-bottom: 35px;
+	padding-top: 40px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+}
+#photoheader {
+	background-size: cover
+}
+
+.precardcontainer {
+	text-align: center;
+	background-color: white;
+	color: rgb(0,30,56);
+	padding: 20px;
+}
+
+.cardcontainer1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	justify-content: space-around;
+	background-color: white;
+	color: rgb(0,30,56);
+	font-size: 25px;
+	font-weight: bold;
+}
+.cardcontainer2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	justify-content: space-around;
+	background-color: white;
+	color: rgb(0,30,56);
+	font-size: 25px;
+	font-weight: bold;
+}
+@media(max-width: 1000px){
+	.cardcontainer1 {
+	grid-template-columns: 1fr 1fr;}
+}
+@media(max-width: 1000px){
+	.cardcontainer2 {
+	grid-template-columns: 1fr 1fr;}
+}
+@media(max-width: 1300px){
+	.header ul{
+	padding-right:0px}
+}
+@media(max-width: 1000px){
+	.header ul{
+	font-size:80%}
+}
+@media(max-width: 1000px){
+	.def1 p{
+	line-height: 1;}
+}
+@media(max-width: 1000px){
+	.def1 h1{
+	line-height: 1;}
+}
+@media(max-width: 1000px){
+	.logogarantie {
+	padding-top: 120px;
+	width: 300px;
+	size: 50%;}
+}
+.card {
+	height: 300px;
+	padding-top:50px;
+	border-radius: 10px;
+	text-align: center;
+	background: white;
+	border: solid black;
+	margin: 20px;
+}
+.card1 {
+	padding-top:50px;
+	border-radius: 10px;
+	text-align: center;
+	background: white;
+	border: solid black;
+	margin: 20px;
+}
+.card img{
+	width: 200px;
+}
+
+.card1 img{
+	height: 200px;
+	width: 90px;
+}
+.intro {
+	font-size: 150%;
+	padding: 150px 100px;
+	background-image: url(image/keyvisualmoto.jpg);
+	background-size: cover;
+	color: white;
+	text-align: right;
+	text-shadow: 2px 3px 3px black;
+}
+
+.def1{
+	
+	display :flex;
+	margin: 0px;
+	background-color: rgb(0,30,56);
+	color: white;
+	line-height: 2.5;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:40px;
+}
+
+.def2{
+	text-align: center;
+	margin: 0px;
+	background-color: rgb(0,30,56);
+	color: white;
+	line-height: 2.5;
+	padding: 20px
+}
+.logogarantie {
+	padding-top: 120px;
+	width: 300px;
+}
+
+.fin{
+	color: rgb(0,30,56);
+	background-color: rgb(245,245,255);
+	line-height: 2.5;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+footer{
+	margin: 0px;
+	justify-content: space-around;
+	list-style: none;
+	display :flex;
+	font-size:20px;
+	background-color: rgb(0,30,56);
+	color: white;
+
+}
+.footer1 {
+	margin-left: -350px;
+	text-align: left;;
+}
+.footer1 ul li{
+	line-height: 2.5;
+	text-align: left;
+	list-style: none;
+	
+	
+}
+.footer2 ul li{
+	margin-right: -300px;
+	text-align: right;
+	list-style: none;	
+}
+.footer2 ul li img{
+	width: 50px;
+}
+
+
